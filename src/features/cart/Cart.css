@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1280px;
+}
+
+.cart-header-top {
+    background-color: #f8f8f8;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.cart-header-top h1 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+section.cart-page-area {
+    padding: 20px 0;
+}
+
+.add-device-area {
+    background-color: #e3b721;
+    color: #000;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.add-device-area a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cart-saving-box-area {
+    padding: 25px;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    margin-bottom: 30px;
+}
+
+.inner-saving {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.cart-saving-box-area h1 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 0;
+}
+
+.cart-saving-box-area a {
+    color: #000;
+}
+
+.inner-saving-box {
+    position: relative;
+    text-align: center;
+}
+
+.inner-saving-box::after {
+    content: '';
+    height: 60px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 0px;
+    right: -25px;
+}
+
+.inner-saving-box span {
+    color: #078a14;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.inner-saving-box1 {
+    text-align: center;
+}
+
+.inner-saving-box1 span {
+    color: #078a14;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cart-saving-box-area p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.cart-saving-box-area p span {
+    color: #078a14;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.css-1c35hjw-MuiPaper-root-MuiAccordion-root::before {
+    display: none;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none;
+}
+
+.saving-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root p {
+    text-align: end;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.saving-title {
+    font-weight: 700;
+}
+
+.saving-price span {
+    color: #078a14;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root {
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.saving-title a {
+    color: #616161;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+span.autopay-price {
+    color: #616161;
+    font-weight: 400;
+}
+
+.saving-title a svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    font-size: 14px;
+}
+
+p.sub-line {
+    font-size: 12px !important;
+    text-align: start !important;
+}
+
+.cart-item {
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.card-item h1 {
+    font-size:24px;
+}
+.cart-product-area {
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    padding: 50px 30px;
+}
+
+.cart-product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-product-title {
+    background-color: #e8e8e8;
+    color: #000;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-1 a {
+    background-color: #1080BD;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .7s;
+}
+
+.btn-1 a:hover {
+    border: 1px solid #1080BD;
+    background-color: #fff;
+    color: #1080BD;
+}
+
+.cart-product-body {
+    margin-bottom: 50px;
+}
+
+.btn-2 a {
+    color: #1080BD;
+    text-decoration: none;
+    border: 1px solid #1080BD;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .7s;
+}
+
+.btn-2 a:hover {
+    color: #fff;
+    background-color: #1080BD;
+}
+
+.main-summary {
+    padding: 25px;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+.main-summary h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.inner-first p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e6162;
+    margin: 0 0 5px 0;
+}
+
+.inner-pera span {
+    font-weight: 700;
+}
+
+.inner-pera p {
+    font-size: 14px;
+    border-bottom: dashed;
+}
+
+.inner-pera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-pera2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-pera2 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    margin: 0px;
+}
+
+.inner-pera2 span {
+    font-weight: 700;
+}
+
+.inner-pera3 p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.inner-pera3 span {
+    color: #1080BD;
+    text-decoration: underline;
+}
+
+.inner-pera4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+}
+
+.inner-pera4 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.inner-pera4 span {
+    font-weight: 700;
+}
+
+.inner-pera5 p {
+    font-size: 14px;
+}
+
+.inner-pera6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.inner-pera6 p {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.inner-pera6 span {
+    font-size: 17px;
+    font-weight: 700;
+    color: green;
+}
+
+.inner-pera7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-pera7 p {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.last-pera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-pera1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.last-pera2 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.last-pera2 span {
+    color: black;
+    font-weight: 700;
+}
+
+.last-pera3 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.last-pera3 span {
+    color: black;
+    font-weight: 700;
+}
+
+span.last-sapn {
+    font-size: 20px;
+}
+
+.last-button {
+    color: #1080BD;
+    text-decoration: none;
+    border: 1px solid #1080BD;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .7s;
+}
+
+.last-button:hover {
+    color: #fff;
+    background-color: #1080BD;
+}
+
+.card-fixed-footer {
+    padding: 30px;
+    background: white;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.inner-pera p svg {
+    font-size: 12px;
+}

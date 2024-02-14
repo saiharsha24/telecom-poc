@@ -1,0 +1,10 @@
+.dashboardheader h1 {
+    color: #f5e8e8;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    background-color: #0f0f0f;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}

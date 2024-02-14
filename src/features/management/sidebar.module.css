@@ -1,0 +1,18 @@
+.myAcc {
+    border: none;
+    background-color: var(--color-primary-base);
+    color: var(--color-white);
+    padding: 16px;
+    font-weight: var(--weight-medium);
+    margin-left: 80vw;
+}
+
+.logo {
+    width: 120px;
+    object-fit: contain;
+    color: var(--color-primary-base);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

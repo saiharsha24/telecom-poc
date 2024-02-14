@@ -1,0 +1,12 @@
+.plans {
+    height: 100%;
+    padding-top: 120px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-end;
+}
