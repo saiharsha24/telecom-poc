@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.css'
 import { ShoppingCartIcon } from "@heroicons/react/24/solid"
 import {NavLink, useNavigate} from "react-router-dom";
-import Otsilogo from './Otsilogo.png'
+import Otsilogo from '../assets/images/Otsilogo.png'
 
 const Header = () => {
   const navigate = useNavigate();

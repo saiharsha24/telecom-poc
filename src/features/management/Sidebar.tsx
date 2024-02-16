@@ -7,7 +7,7 @@ import { SidebarData } from './SidebarData';
 import Submenu from './Submenu';
 import styles from './sidebar.module.css';
 import { useNavigate } from 'react-router-dom';
-import Otsilogo from './Otsilogo.png';
+import Otsilogo from '../../assets/images/Otsilogo.png';
 
 const Nav = styled.div`
   display: flex;

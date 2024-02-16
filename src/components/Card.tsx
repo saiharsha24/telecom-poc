@@ -11,13 +11,13 @@ type Props = {
 
 const Card = ({ item, selected, onclick }: Props) => {
   return (
-    <div className={styles.card}>
+    <div className="card">
       {selected && (
-        <div className={styles.selected}>You selected this plan</div>
+        <div className="selected">You selected this plan</div>
       )}
       <div className={`${styles.container} ${selected ? styles.isSelected : ''}`}>
         <div className={styles.discount}>
-          <TagIcon className={styles.tagIcon}/>
+          <TagIcon className="tagIcon"/>
           <span>Get a Special DISCOUNT for new customers</span>
         </div>
         <div className={styles.content}>

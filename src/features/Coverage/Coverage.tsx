@@ -1,5 +1,5 @@
 import React from "react";
-import Workin from "./Workin.png";
+import Workin from "../../assets/images/Workin.png";
 import styles from "./Coverage.module.css";
 
 

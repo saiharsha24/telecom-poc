@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import "./customer.module.css";
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
-import OtsiLogo from "./Otsilogo.png"
+import OtsiLogo from "../../assets/images/Otsilogo.png"
 
 interface CustomerData {
   FirstName: string;

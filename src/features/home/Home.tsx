@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import Otsisuit from './Otsisuit.png';
+import Otsisuit from '../../assets/images/Otsisuit.png';
 
 const Home = () => {
   return (
